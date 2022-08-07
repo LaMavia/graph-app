@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/graph-app/static/css/main.c5c05d2f.css",
+    "main.js": "/graph-app/static/js/main.2a50a0a6.js",
+    "static/js/787.10a0e4ea.chunk.js": "/graph-app/static/js/787.10a0e4ea.chunk.js",
+    "index.html": "/graph-app/index.html",
+    "main.c5c05d2f.css.map": "/graph-app/static/css/main.c5c05d2f.css.map",
+    "main.2a50a0a6.js.map": "/graph-app/static/js/main.2a50a0a6.js.map",
+    "787.10a0e4ea.chunk.js.map": "/graph-app/static/js/787.10a0e4ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5c05d2f.css",
+    "static/js/main.2a50a0a6.js"
+  ]
+}
