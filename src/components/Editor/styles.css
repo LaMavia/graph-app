@@ -1,0 +1,12 @@
+.editor__area {
+  width: 80%;
+  height: 80%;
+  margin: 10% auto 2rem auto;
+  resize: none;
+}
+
+.editor__button {
+  width: 80%;
+  height: 3rem;
+  margin: none auto;
+}

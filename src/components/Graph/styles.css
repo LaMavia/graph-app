@@ -1,0 +1,35 @@
+.graph {
+  height: 100%;
+  border: 1px #1b1b1b dashed;
+}
+.graph--following {
+  cursor: move;
+}
+
+.graph__edge {
+  transition: 0.1s;
+  fill: #1b1b1b;
+  stroke: #1b1b1b;
+  stroke-width: 0.5;
+}
+
+.graph__edge:hover {
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+.graph__edge * {
+  transition: 0.1s;
+}
+
+.graph__node {
+  cursor: pointer;
+}
+
+.graph__node__circle {
+  fill: #3489eb;
+}
+
+.graph__node--selected .graph__node__circle {
+  fill: #f57842;
+}

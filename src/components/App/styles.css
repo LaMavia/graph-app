@@ -1,0 +1,54 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.instructions {
+  position: fixed;
+  width: 8rem;
+  height: 8rem;
+  left: 5px;
+  top: 5px;
+  background-color: #1b1b1bdf;
+}
+
+.instructions__list {
+  list-style: none;
+  display: block;
+  width: 90%;
+  height: 90%;
+  margin: 0;
+  padding: 5%;
+}
+
+.instructions__list__item {
+  font-size: small;
+  color: #fefefe;
+}
+
+.layer {
+  --n-layers: 1;
+  --layer: 0;
+  --n-graphs: 1;
+  --max-graphs: 1;
+  --height: calc(100vh / var(--n-layers));
+  --gap: calc((100vw - var(--n-graphs) * var(--height)) / var(--n-graphs));
+
+  display: grid;
+  height: var(--height);
+  grid-template-columns: repeat(var(--n-graphs), var(--height));
+  grid-template-rows: 1fr;
+  column-gap: var(--gap);
+  align-items: center;
+}
+
+.layer > * {
+  margin: 0 calc(var(--gap)/2);
+}
+
+.layer__filler {
+  display: block;
+  width: var(--height);
+  height: var(--height);
+}
