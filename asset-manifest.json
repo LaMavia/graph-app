@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/graph-app/static/css/main.d60ce2b4.css",
-    "main.js": "/graph-app/static/js/main.5b20d84a.js",
+    "main.css": "/graph-app/static/css/main.988428c3.css",
+    "main.js": "/graph-app/static/js/main.ffb9f009.js",
     "static/js/787.10a0e4ea.chunk.js": "/graph-app/static/js/787.10a0e4ea.chunk.js",
     "index.html": "/graph-app/index.html",
-    "main.d60ce2b4.css.map": "/graph-app/static/css/main.d60ce2b4.css.map",
-    "main.5b20d84a.js.map": "/graph-app/static/js/main.5b20d84a.js.map",
+    "main.988428c3.css.map": "/graph-app/static/css/main.988428c3.css.map",
+    "main.ffb9f009.js.map": "/graph-app/static/js/main.ffb9f009.js.map",
     "787.10a0e4ea.chunk.js.map": "/graph-app/static/js/787.10a0e4ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d60ce2b4.css",
-    "static/js/main.5b20d84a.js"
+    "static/css/main.988428c3.css",
+    "static/js/main.ffb9f009.js"
   ]
 }
